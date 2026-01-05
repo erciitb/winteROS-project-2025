@@ -78,7 +78,7 @@ Let's get started!
 
 To download the starter package, clone the following git repo into your colcon workspace:
 ```bash
-git clone https://github.com/Aswath0929/WinteROS_Week4final1
+git clone https://github.com/erciitb/winteROS-project-2025.git
 ```
 
 Let's take a look what's inside the `erc_ros2_simple_arm` package with the `tree` command!
