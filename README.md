@@ -496,7 +496,7 @@ ros2 launch erc_ros2_simple_arm spawn_robot.launch.py
 
 As we noticed earlier, we can move the joint angles of the robotic arm in RViz using the `joint_state_publisher_gui` but this has no impact on the simulation. To move the arm in the simulation first we have to turn off the `joint_state_publisher_gui` in the `spawn_robot.launch.py`, it means the small GUI won't open anymore using this launch file.
 
-The next step is to forward `joint_states` from Gazebo to ROS, this we can set up in the config file of `gz_bridge` as we did previously with the mobile robots too:
+The next step is to forward `joint_states` from Gazebo to ROS, this we can set up in the config file of `gz_bridge.yaml` as we did previously with the mobile robots too:
 
 ```yaml
 - ros_topic_name: "joint_states"
